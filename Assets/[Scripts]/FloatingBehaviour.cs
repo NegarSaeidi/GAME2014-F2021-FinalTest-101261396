@@ -1,3 +1,14 @@
+/*
+ *                    Final Test - Mobile Game Programming
+ *                    Author: Negar Saeidi
+ *                    Student number : 101261396
+ *                    Date last modified: 12/14/2021
+ *                    File Name: FloatingBehaviour
+ *                    Rivision history: 1st version : Creates the floating behaviour of the platform
+ *                 
+ *                    
+ *                    
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

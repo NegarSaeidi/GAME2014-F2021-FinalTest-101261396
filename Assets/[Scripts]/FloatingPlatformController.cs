@@ -1,3 +1,14 @@
+/*
+ *                    Final Test - Mobile Game Programming
+ *                    Author: Negar Saeidi
+ *                    Student number : 101261396
+ *                    Date last modified: 12/14/2021
+ *                    File Name: FloatingPlatformController
+ *                    Rivision history: 1st version :  Upon platform's activation, the platform shrinks gradually over time. When platform gets deactivated, the length of it backs to normal.
+ *                 
+ *                    
+ *                    
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
