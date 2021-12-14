@@ -70,8 +70,8 @@ public class PlayerBehaviour : MonoBehaviour
     private SpriteRenderer m_spriteRenderer;
     private Animator m_animator;
     private RaycastHit2D groundHit;
-    
 
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -287,6 +287,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             other.gameObject.GetComponent<FloatingPlatformController>().isActive = true;
             transform.SetParent(other.gameObject.transform.parent);
+           
         }
     }
 
@@ -299,8 +300,10 @@ public class PlayerBehaviour : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Floating Platform"))
         {
+           
             other.gameObject.GetComponent<FloatingPlatformController>().isActive = false;
             transform.SetParent(parent);
+         
         }
     }
 
